@@ -14,7 +14,7 @@ const Newsletter = () => {
                     <div className="container container-fluid">
                         <div className="row wrapper shadow-lg">
                             <form className="row shadow-lg">
-                                <h1 className="mb-2">Newsletter</h1>
+                                <h1 className="mb-2">Newsletters</h1>
                                 <p>This page is containing news concerning the game activities.</p>
                                 <div
                                     className={`card ${style['card-container']}`}

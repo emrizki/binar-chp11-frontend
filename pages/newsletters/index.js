@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Newsletter from '../../components/user/Newsletter';
+import Newsletter from '../../components/user/Newsletters';
 import Layout from '../../components/layout/Layout';
 import withAuth from '../../HOC/withAuth';
 

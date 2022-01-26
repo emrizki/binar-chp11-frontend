@@ -45,8 +45,8 @@ const Header = () => {
           <Link href="/game">
             <a className="btn nav-links">GAMES LIST</a>
           </Link>
-          <Link href="/newsletter">
-            <a className="btn nav-links">NEWSLETTER</a>
+          <Link href="/newsletters">
+            <a className="btn nav-links">NEWSLETTERS</a>
           </Link>
           <Link href="/contact">
             <a className="btn nav-links">CONTACT</a>

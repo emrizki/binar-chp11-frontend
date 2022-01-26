@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Road+Rage&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Road+Rage&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap");
 
 html,
 body {
@@ -22,13 +22,13 @@ a {
 /* Header */
 .navbar {
   background: #0a1f30;
-  font-family: 'Lato', sans-serif;
+  font-family: "Gill Sans", sans-serif;
 }
 
 .navbar .navbrand {
   color: white;
   font-size: 35px;
-  font-family: 'Road Rage', cursive;
+  font-family: "Road Rage", cursive;
 }
 
 .navbar .navbrand:hover {
@@ -87,7 +87,7 @@ footer {
   height: 16px;
 }
 .lds-dual-ring:after {
-  content: ' ';
+  content: " ";
   display: block;
   width: 24px;
   height: 24px;
@@ -108,7 +108,7 @@ footer {
 /* Login & Register */
 
 .auth-background {
-  background-image: url('/img/bgconsole.jpg');
+  background-image: url("/img/bgconsole.jpg");
   background-repeat: repeat;
   background-size: 30%;
   color: #0a1f30;
@@ -220,7 +220,7 @@ footer {
 /* Update Form */
 
 .update-background {
-  background-image: url('/img/bgconsole.jpg');
+  background-image: url("/img/bgconsole.jpg");
   background-repeat: repeat;
   background-size: 30%;
   color: #0a1f30;
@@ -234,11 +234,11 @@ footer {
 
 /* Profile Details */
 .profile-bg-image {
-  background-image: url('/img/bgconsole.jpg');
+  background-image: url("/img/bgconsole.jpg");
   background-repeat: repeat;
   background-size: 30%;
   color: #0a1f30;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .profile-background {
@@ -253,7 +253,7 @@ footer {
   border-radius: 7px;
   color: white;
   font-size: larger;
-  font-family: 'Lato', sans-serif !important;
+  font-family: "Lato", sans-serif !important;
 }
 
 .img {
@@ -264,11 +264,11 @@ footer {
 
 /* Home */
 .home-bg-image {
-  background-image: url('/img/bgconsole.jpg');
+  background-image: url("/img/bgconsole.jpg");
   background-repeat: repeat;
   background-size: 30%;
   color: #0a1f30;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .home-background {
@@ -294,7 +294,7 @@ footer {
   border-radius: 7px;
   color: white;
   font-size: 20px;
-  font-family: 'Lato', sans-serif !important;
+  font-family: "Lato", sans-serif !important;
 }
 
 .home-img img {
@@ -321,7 +321,7 @@ footer {
 }
 
 .game-list-bg {
-  background-image: url('/img/bgconsole.jpg');
+  background-image: url("/img/bgconsole.jpg");
 }
 
 .home-box {
@@ -342,7 +342,7 @@ footer {
   border-radius: 7px;
   color: white;
   font-size: 20px;
-  font-family: 'Lato', sans-serif !important;
+  font-family: "Lato", sans-serif !important;
 }
 
 .home-img img {
@@ -369,5 +369,5 @@ footer {
 }
 
 .game-list-bg {
-  background-image: url('/img/bgconsole.jpg');
+  background-image: url("/img/bgconsole.jpg");
 }

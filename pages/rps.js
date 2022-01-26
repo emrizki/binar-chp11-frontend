@@ -9,18 +9,18 @@ export default function RPS() {
   return (
     <div>
       <div className={styles.background}>
-        <div className="container-fluid mt-3">
+        <div className="container">
           <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
             rel="stylesheet"
           ></link>
           <div className="row align-items-center">
-            <div className="col-1 fs-1 fw-bolder text-end custom-back-button">
+            <div className="col-1 fs-1 fw-bolder text-end custom-back-button mt-2">
               <a style={{ color: '#724C21' }} href="/game">
                 &lt;
               </a>
             </div>
-            <div className="col-1 text-center">
+            <div className="col-1 text-center mt-2">
               <img
                 src="/logo.png"
                 width={60}
@@ -30,7 +30,7 @@ export default function RPS() {
             </div>
 
             <div
-              className="col fs-2 fw-bold custom-game-title"
+              className="col fs-2 fw-bold custom-game-title mt-2"
               style={{ color: '#F9B23D' }}
             >
               ROCK PAPER SCISSOR
