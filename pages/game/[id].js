@@ -125,9 +125,9 @@ function detail() {
             <div className="container">
               <div
                 className="row d-flex flex-column justify-content-center align-items-center"
-                style={{ minHeight: '100vh' }}
+                style={{ minHeight: '80vh' }}
               >
-                <div className="col-11">
+                <div className="col-12">
                   {/* <Image
                     src={prsPict}
                     className="img d-block w-100"
@@ -151,7 +151,7 @@ function detail() {
                     className="btn  mt-3"
                     style={{
                       color: 'white',
-                      backgroundColor: '#0a1f30',
+                      backgroundColor: '#00A2EF',
                       marginLeft: 'auto',
                       marginRight: 'auto',
                     }}
@@ -162,39 +162,39 @@ function detail() {
               </div>
             </div>
           </section>
-          <section id={style['list-game']}>
-            <div className="container">
-              <div
-                className="row d-flex flex-column justify-content-center align-items-center"
-                style={{ minHeight: '100vh' }}
+          <section id={style['judul']}>
+            {/* <div className="container"> */}
+            {/* <div
+              className="row d-flex flex-column justify-content-center align-items-center"
+              style={{ minHeight: '100vh' }}
+            > */}
+            <div className="row d-flex flex-column justify-content-center align-items-center">
+              <h1
+                className="text-center text-uppercase"
+                style={{ color: 'black' }}
               >
-                <div className="col-6 d-flex flex-column justify-content-center align-items-center">
-                  <h1
-                    className="text-center text-uppercase"
-                    style={{ color: 'black' }}
-                  >
-                    LEADERBOARD
-                  </h1>
-                </div>
-                <div className="col-6 mt-5">
-                  <table className="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Rangking</th>
-                        <th scope="col">Username</th>
-                        <th scope="col">Nama</th>
-                        <th scope="col">Score</th>
-                      </tr>
-                    </thead>
-                    <tbody>{renderTableData(leaderboard)}</tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
+                LEADERBOARD
+              </h1>
+
+              <div className="col-6 mt-5">
+                <table className="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Rangking</th>
+                      <th scope="col">Username</th>
+                      <th scope="col">Nama</th>
+                      <th scope="col">Score</th>
+                    </tr>
+                  </thead>
+                  <tbody>{renderTableData(leaderboard)}</tbody>
+                </table>
+              </div></div>
+            {/* </div> */}
+            {/* </div> */}
           </section>
         </div>
-        <div className={`${style['sticky']} container-flluid`}>
-          <div className={` row d-flex flex-column align-items-end`}>
+        <div className={`${style['sticky']}`}>
+          <div className={`row d-flex flex-column`}>
             <FacebookShareButton
               style={{ width: '32px', marginRight: '20px' }}
               url={'https://binar-team-one-ch10-server.herokuapp.com/docs/'}
