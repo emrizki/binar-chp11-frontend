@@ -45,6 +45,7 @@ const Login = () => {
 
   const responseGoogle = async (response) => {
     try {
+      console.log(response);
       const tokenId = response.tokenId;
       const result = await axios.post(`${apiUrl}/loginGoogle`, {
         tokenId,

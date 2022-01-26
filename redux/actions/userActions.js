@@ -40,7 +40,7 @@ export const registerUser = (userData) => async (dispatch) => {
     setTimeout(() => {
       dispatch({
         type: REGISTER_USER_FAIL,
-        payload: error.response.data.error,
+        payload: error.response.data.message,
       });
     }, 1000);
   }
@@ -115,6 +115,7 @@ export const updateUser = (userData) => async (dispatch) => {
     }, 1000);
   } catch (error) {
     setTimeout(() => {
+      console.log(error);
       dispatch({
         type: UPDATE_PROFILE_FAIL,
         payload: error.response.data.error,
